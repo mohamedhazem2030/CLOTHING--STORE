@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>G.O.A.T</title>
+    <link rel="stylesheet" href="css2/main css2">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav>
+        
+        
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#products">Products</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Slider -->
+    <div class="slider">
+        </div>
+
+    <!-- Hero Section -->
+    <div class="hero">
+        <h1>Welcome to our Clothing Website</h1>
+        <p>Shop the latest trends and styles in clothing.</p>
+        <a href="#" class="btn">Shop Now</a>
+    </div>
+
+    <!-- About Section -->
+    <section id="about">
+        <div class="container">
+            <h2>About Us</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer sit amet facilisis lectus. Nam molestie mi at ligula euismod, a maximus justo faucibus. Quisque congue velit et nulla fringilla, eu vehicula libero dictum.</p>
+        </div>
+    </section>
+
+    <!-- Products Section -->
+    <section id="products">
+        <div class="container">
+            <h2>Our Products</h2>
+            <div class="product">
+                <img src="cloths 2.jpg" alt="Product Image">
+                <h3>Product 1</h3>
+                <p>Price: 350 EGP.</p>
+                <button class="btn">Add to Cart</button>
+            </div>
+            <div class="product">
+                <img src="cloths.jpg" alt="Product Image">
+                <h3>Product 2</h3>
+                <p>Price: 400 EGP.</p>
+                <button class="btn">Add to Cart</button>
+            </div>
+            <div class="product">
+                <img src="cloths3.jpg" alt="Product Image">
+                <h3>Product 3</h3>
+                <p>Price: 500 EGP.</p>
+                <button class="btn">Add to Cart</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input
+                type="email" id="email" name="email" required>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+    
+                <button class="btn" type="submit">Submit</button>
+            </form>
+        </div>
+    </section>
+    
+    <!-- Footer -->
+    <footer>
+        <p>&copy; G.O.A.T Clothing Website STORE. .</p>
+    </footer>
+</body>
+</html>
